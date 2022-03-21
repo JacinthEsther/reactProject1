@@ -1,38 +1,50 @@
-.App {
+.app-container{
+
+}
+
+.header-container{
+  height:100vh;
+  width:100vw;
+  background-color: black;
+  background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),
+  url("https://www.sampleposts.com/wp-content/uploads/2020/10/travel-quotes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  display:flex;
+  padding: 10px 20px;
+  /* width:100em; */
+
+}
+
+.auth-button{
+  padding-left: 27em;
+  border-radius: 30%;
+  margin-top:0%;
+  height:20px;
+  width:15em;
+}
+
+.main-text-holder{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main-text-holder h1{
+  margin-top: 10%;
+  font-weight: bold;
+  font-size:40px;
+  width: 100%;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.main-text-holder p{
+  margin-top:16px;
+  font-size:14px;
+  font-weight:lighter;
+  font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif
 }
