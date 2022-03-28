@@ -34,12 +34,12 @@ h1{
 }
 
 .firstname-details p{
-    font-size: 6px;
+    font-size: 15px;
     color: #C0C0C0;
 }
 
 .firstname-details h1{
-    font-size: 10px;
+    font-size: 30px;
     color: #ffffff;
 }
 
@@ -59,11 +59,17 @@ h1{
 }
 
 .hobby-details p{
-    font-size:6px;
+    font-size:15px;
     color: #1a1919;
 }
 
 .hobby-details h1{
-    font-size: 10px;
+    font-size: 30px;
     color: #000000;
+}
+
+.profile-card button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
 }
