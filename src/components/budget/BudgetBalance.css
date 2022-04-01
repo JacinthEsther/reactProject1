@@ -24,7 +24,7 @@
 }
 
 .balance-buttons{
-    width:50%;
+    width:65%;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -48,7 +48,7 @@ color: #4b0090;
 .balance-buttons button{
     outline:unset;
     border:none;
-    padding:1.8%;
+    padding:1.5%;
     background-color:white;
     color: #4b0090;
     font-size: 12px;

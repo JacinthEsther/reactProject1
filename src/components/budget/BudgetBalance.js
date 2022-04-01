@@ -4,8 +4,9 @@ import "./BudgetBalance.css"
 const BudgetBalance =(props)=> { 
     const [input,setIsInput] = useState("")
 
+
     const handleInput = (e) => {
-        // console.log(e)
+        console.log(e)
         setIsInput(e.target.value)
     }
     return (
@@ -17,7 +18,6 @@ const BudgetBalance =(props)=> {
                 <input onChange={handleInput} />
                 <button  onClick={()=>props.setBalance(input)}>Update Balance</button>
             </div>
-    
         </div>
     )
 }
