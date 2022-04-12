@@ -1,0 +1,9 @@
+.form-body{
+text-align: center;
+background-color: rgb(145, 49, 235);
+box-shadow: 5px 5px 14px 7px #b5b5b5;
+min-height: 20vh;
+width:50%;
+flex-direction: row;
+}
+

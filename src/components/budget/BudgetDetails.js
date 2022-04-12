@@ -10,10 +10,6 @@ const BudgetDetails = (props) => {
         setBudget(newObject.filter((data,index)=>index !== objectId))
         let updateBalance = balance + budgetAmount
         setBalance(updateBalance)
-    //     { if (input.budgetAmount > 0)
-    //         { setBalance(balance-total)}
-    //         else setBalance(balance)
-    //  }
     }
  
   return (

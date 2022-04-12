@@ -64,3 +64,14 @@
     color: #4b0090;
     font-size:16px;
 }
+
+.balance-dropdown{
+    height: 2.5em;
+    width: 4rem;
+    border: unset;
+    border-radius:3px;
+    padding: 4px;
+    color:#4b0090;
+    font-weight: bold;
+
+}

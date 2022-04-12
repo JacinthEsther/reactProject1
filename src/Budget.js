@@ -3,6 +3,7 @@ import './Budget.css'
 import BudgetBalance from './components/budget/BudgetBalance'
 import BudgetBody from './components/budget/BudgetBody'
 
+
 const Budget=()=> {
     const[balance,setBalance] = useState(5000000)
 
@@ -11,8 +12,9 @@ const Budget=()=> {
     <div className="budget-container">
         <BudgetBalance balance={balance} setBalance={setBalance}/>
         <BudgetBody balance={balance} setBalance={setBalance}/>
+        
     </div>
     )
-}
+} 
 
 export default Budget

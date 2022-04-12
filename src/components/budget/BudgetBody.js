@@ -5,9 +5,9 @@ import { BudgetEntry } from './BudgetEntry'
 
 
 const BudgetBody =(props)=> {
+    
     const [budget, setBudget]= useState([])
     const {balance, setBalance}  = props
-    
     
     return (
         <div className="budget-body">
