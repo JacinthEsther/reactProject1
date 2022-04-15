@@ -37,7 +37,7 @@ const Register = (props) => {
             }
             let newUsersRepository = [userDetails, ...usersRepository]
             localStorage.setItem("users", JSON.stringify(newUsersRepository))
-            setAlert({ishow: true, status: "success", message: "Registration Successful"})
+            setAlert({ishow: true, status: "success",  message: "Registration Successful"})
 
         } catch (error) {
             localStorage.setItem("users", JSON.stringify([userDetails]))
@@ -58,7 +58,6 @@ const Register = (props) => {
         <label>Password</label>
         <input type="password" name="password"  onChange={handleUserInput}/>
         <button  onClick={handleRegistration}>Register</button>
-
     </div>
   )
 }

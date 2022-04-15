@@ -3,7 +3,7 @@ import Login from './components/authentication/Login'
 import Register from './components/authentication/Register'
 import './authentication.css'
 
-const Authentication = () => {
+const Authentication = (props) => {
     const [auth, setAuth] = useState("login")
     const [alert, setAlert] = useState({ishow: false,status:'', message: ''})
 
@@ -25,7 +25,7 @@ const Authentication = () => {
                     {alert.message}</div>}
             <button onClick ={switchHandler}>{auth === "login"? "Register": "Login" }</button>
             </div>
-            {auth ==="login" ? <Login setAlert={setAlert}/> :<Register setAlert={setAlert} />}
+            {auth ==="login" ? <Login setCustomerName={props.setCustomerName}setAlert={setAlert} /> :<Register setAlert={setAlert} />}
         </div>
     </div>
   )
