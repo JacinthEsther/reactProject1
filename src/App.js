@@ -6,17 +6,17 @@ import "./components/MyApp.css"
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
-    const[customerName, setCustomerName] = useState("") 
+    // const[customerName, setCustomerName] = useState("") 
   return (
     <div className="app-container">
       <Router>
       
       <Switch>
         <Route exact path="/">
-        <Authentication setCustomerName={setCustomerName}/>
+        <Authentication />
         </Route>
-        <Route path="/dashboard">
-          <Budget customerName={customerName} />
+        <Route path="/dashboard/:identity">
+          <Budget />
         </Route>
       </Switch>
       </Router>

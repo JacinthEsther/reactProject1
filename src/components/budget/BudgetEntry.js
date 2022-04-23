@@ -3,7 +3,6 @@ import React,{useState} from 'react'
 export const BudgetEntry = (props) => { 
 
     let {budget, setBudget, balance, setBalance} = props
-  
 
     const[input, setInput] = useState({budgetName:'',budgetAmount:'', budgetDescription:'', date: ''})
 
